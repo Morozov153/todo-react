@@ -5,6 +5,7 @@
   padding-left: 10px;
   border: var(--border);
   border-radius: var(--border-radius);
+  text-decoration: none;
 
   &:hover {
     background-color: var(--color-gray-1);
@@ -78,6 +79,7 @@
 .label {
   width: 100%;
   pointer-events: none;
+  text-decoration: none;
 }
 
 .deleteButton {

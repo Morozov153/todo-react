@@ -47,7 +47,7 @@ const TodoItem = ({ className = '', id, title, isDone }) => {
       <button
         className={styles.deleteButton}
         aria-label="Delete"
-        title="Delete"
+        title="Удалить"
         type="button"
         onClick={() => deleteTask(id)}
       >

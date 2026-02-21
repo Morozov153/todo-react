@@ -12,7 +12,7 @@ const SearchTakForm = (props) => {
       <form className={styles.form} onSubmit={(event) => event.preventDefault()}>
        <Field
        className={styles.field}
-       label="Search task"
+       label="Поиск задачи"
        id="search-task"
        type="search"
        value={searchQuery}

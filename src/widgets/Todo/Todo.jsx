@@ -12,7 +12,7 @@ const Todo = () => {
 
   return (
     <div className={styles.todo}>
-      <h1 className={styles.title}>To Do List</h1>
+      <h1 className={styles.title}>Список задач</h1>
       <AddTaskForm styles={styles} />
       <SearchTaskForm styles={styles} />
       <TodoInfo styles={styles} />

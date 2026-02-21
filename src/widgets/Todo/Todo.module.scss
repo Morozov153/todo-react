@@ -11,7 +11,10 @@
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
-
+mark {
+  background-color: #e0e0e0; /* серый */
+  color: inherit;
+}
 .title {
   text-align: center;
   font-size: 24px;
